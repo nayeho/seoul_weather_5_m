@@ -1,6 +1,6 @@
 import requests               # url:get 요청
 import csv                    # csv로 저장
-import os                     # 폴더 생성
+import os                     # 폴더 생성 
 from datetime import datetime # 시간 변환
 WEATHER_API_KEY = os.getenv("WEATHER_API_KEY")
 city = "Seoul"
